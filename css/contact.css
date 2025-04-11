@@ -1,0 +1,38 @@
+.contact-h2{
+    margin: 1rem;
+    
+}
+.contact-heading{
+    width: 80vw;
+}
+.contact-content{
+    position: relative;
+    height: 100vh;
+    /* background-color: blue; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-content::after{
+    content: ""; /* Required! Otherwise, it doesn’t appear */
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1; 
+  }
+.form-box{
+    margin: 0.5rem 1rem;
+} 
+.form-box input, textarea{
+    border: 2px solid orange;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 3rem;
+    padding-top: 1rem;
+    /* border: 2px solid black; */
+}
+.navigation{
+    font-family: var(--font-1);
+    /* height: 70px; */
+    /* background-color: rgb(232, 11, 11); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.nav-left{    
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 1rem;
+    font-family: var(--font-2);
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+}
+.nav-left ul li a:hover{
+    color: red;
+}
+
+.content{
+    position: relative;
+    /* height: 15rem; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.content::after{
+    content: ""; /* Required! Otherwise, it doesn’t appear */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1; 
+  }
+.content-left{
+    font-family: var(--font-1);
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* align-items: center; */
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right img{
+    width: 20rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+.home-articles{
+    /* height: 116rem; */
+    /* background-color: #2981e5; */
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 5rem;
+    height: 6rem;
+    /* position: absolute; */
+    top: 3rem;
+    right: 2rem;
+    display: flex;
+    /* background-color: red;  */
+}
+.year-box div{
+    /* margin-top: 1rem; */
+    margin-left: 0.5rem;
+}
+.home-articles h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.home-article{
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(248, 225, 228,0.5);
+}
+.home-article img{
+    width: 17rem;
+    height: 12rem;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0 2rem;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 3rem;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

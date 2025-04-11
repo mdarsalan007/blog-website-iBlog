@@ -1,0 +1,109 @@
+@media screen and (max-width:1100px){
+    /* .navigation{
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+    .nav-left{
+        flex-direction: column;
+        margin-bottom: 0.3rem;
+    }
+    .nav-left ul{
+        margin-left: 0;
+    } */
+    /* .content-right{
+        display: none;
+    } */
+    /* .home-article{
+        flex-direction: column;
+    } */
+    .home-article-img{
+        text-align: center;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:900px){
+    .content-right{
+        display: none;
+    }
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+    .nav-left{
+        flex-direction: column;
+        margin-bottom: 0.3rem;
+    }
+    .nav-left ul{
+        margin-left: 0;
+    }
+    .social {
+        padding-right: 1rem;
+    }
+}
+
+    
+
+@media screen and (max-width:650px){
+    .home-article{
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .year-box{
+        margin-bottom: 1rem;
+    }
+    .home-article-1{
+        padding-top: 4rem;
+    }
+    .home-article-content{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:600px){
+    .social {
+        padding-right: 0.5rem;
+    }
+    .social i {
+        /* margin: 0 0.5rem; */
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width:550px){
+    .blogpost-meta{
+        display: flex;
+        flex-direction: column;
+    }
+    .social i {
+        /* margin: 0 0.5rem; */
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:500px){
+    
+    .form-box input,textarea{
+        width: 50vw;
+      }
+      
+    
+}
+@media screen and (max-width:400px){
+    .home-article img {
+        width: 12rem;
+        height: 8rem;
+    }
+    .form-box input,textarea{
+        width: 60vw;
+      }
+    
+}
+@media screen and (max-width:350px){
+    .footer{
+    margin-top: 0.3rem;
+    }
+    .contact-h2{
+        font-size: 0.7rem;
+    }
+}
